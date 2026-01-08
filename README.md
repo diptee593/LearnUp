@@ -1,6 +1,57 @@
 # LearnUp🎓🤖
+A scalable AI-powered adaptive learning platform with real users
 
-An AI-based learning platform designed for 2nd–5th standard students to provide adaptive quizzes, performance analytics, and personalized learning.
+LearnUp/
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── features/
+│   ├── services/
+│   └── styles/
+│
+├── backend/
+│   ├── src/
+│   │   ├── modules/
+│   │   │   ├── auth/
+│   │   │   ├── users/
+│   │   │   ├── students/
+│   │   │   ├── teachers/
+│   │   │   ├── quizzes/
+│   │   │   ├── ai/
+│   │   │   └── analytics/
+│   │   ├── common/
+│   │   ├── config/
+│   │   └── main.ts
+│   │
+│   └── tests/
+│
+├── database/
+│   ├── migrations/
+│   └── schema.sql
+│
+├── infra/
+│   ├── docker/
+│   └── nginx/
+│
+├── docs/
+│   ├── architecture.md
+│   ├── api-spec.md
+│   └── diagrams/
+│
+└── README.md
+
+
+
+| Layer    | Tech                             |
+| -------- | -------------------------------- |
+| Frontend | **Next.js (React, App Router)**  |
+| Backend  | **NestJS (Node.js, TypeScript)** |
+| Database | PostgreSQL                       |
+| ORM      | Prisma                           |
+| Auth     | JWT + RBAC                       |
+| AI       | OpenAI API                       |
+| Infra    | Docker                  |
+| Repo     | Monorepo (single repo, folders)  |
 
 ## 🚀 Features
 - Student, Teacher, Parent dashboards
