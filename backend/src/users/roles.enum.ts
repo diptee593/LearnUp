@@ -1,0 +1,1 @@
+//To restrict values and avoid magic strings Makes RBAC safe & scalable

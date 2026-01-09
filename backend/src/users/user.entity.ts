@@ -1,0 +1,1 @@
+//Single source of truth for User structure  Makes DB + validation easy later
